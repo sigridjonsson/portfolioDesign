@@ -1,8 +1,8 @@
 ---
-Logo: image/film.jpg
+Logo: image/icon.png
 Tagline: Student vid BTH
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/sigridjonsson/portfolioDesign
       icon: github
 ---
