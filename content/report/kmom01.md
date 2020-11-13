@@ -3,7 +3,7 @@ Title: Redovisning
 Description: Report for kmom01.
 ---
 
-Redovisning
+Redovisning {.rubrik}
 ==========================
 
 ## Kmom01
@@ -12,13 +12,10 @@ __Har du jobbat med ramverk eller andra CMS:er tidigare?__<br>
 Nej det har jag inte. CMS har jag inte hört talats om förut. Ramverk är ett ord
 som jag har hört flera gånger, men jag har inte 100% koll på vad det betyder. Så
 jag har fått lägga tid på att försöka förstå vad både CMS och ramverk är.
-<!-- Som jag förstår det så är CMS = Content Management System och i den här kursen använder
-vi Pico. Pico gör så att jag inte kodar mitt portfolio själv utan kan fokusera
-på designen av sidan. -->
 
 __Det blev en del nya verktyg och tekniker i labbmiljön och för att jobba med
 portfolio-sidan, är du bekant med någon av dem sedan tidigare?__<br>
-Jag läser Webbprogramering på distans och har därför precis läst kursen htmlphp.
+Jag läser Webbprogrammering på distans och har därför precis läst kursen htmlphp.
 Den har gett mig en bra grund och därför kändes det mesta bekant när jag började
 med det här kursmomentet. Men jag blev ändå lite överväldigad av alla filer och
 mappar när jag öppnade porfolio uppgiften i Atom. Mappstrukturen är inte likadan

@@ -1,0 +1,49 @@
+@import "../../node_modules/normalize.css/normalize";
+
+@import "../../shared/fontawesome/scss/fontawesome";
+$fa-font-path: "../../shared/fontawesome/webfonts";
+@import "../../shared/fontawesome/scss/brands";
+@import "../../shared/fontawesome/scss/solid";
+@import "../../shared/fontawesome/scss/regular";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+@import "oldStyle";
+
+
+// VARIABLES
+
+$bigHeaderSize: 1.5em + 1;
+$bigHeaderColor: #2b3ae0;
+
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: #e3147d;
+}
+
+h1 {
+    font-size: $bigHeaderSize;
+    color: $bigHeaderColor;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rubrik {
+    margin-top: -15px;
+}
