@@ -146,7 +146,7 @@ body {
 
 .nav a:hover, .nav-toggle:hover {
     color: #2b3ae0;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .nav-toggle {
@@ -170,6 +170,7 @@ body {
 .footer {
     background: #ff87c4;
     color: #e3147d;
+    /* border: 2px solid #e3147d; */
 }
 
 .footer a {

@@ -1,11 +1,64 @@
 ---
 Title: Redovisning
 Description: This is my report page.
+Template: report
 ---
 
 Redovisning {.rubrik}
 ==========================
 
-* [Kmom01](report/kmom01){.kmom}
+<div class="kmom-box">
+<a href="report/kmom01">
+<h2>Kmom01</h2>
+<p>Hela redovisnigstexten</p>
+<i class="fas fa-arrow-alt-circle-right"></i>
+</a>
+</div>
 
-* [Kmom02](report/kmom02){.kmom}
+<div class="kmom-box">
+<a href="report/kmom02">
+<h2>Kmom02</h2>
+<p>Hela redovisnigstexten</p>
+<i class="fas fa-arrow-alt-circle-right"></i>
+</a>
+</div>
+
+<div class="kmom-box">
+<a href="report/kmom03">
+<h2>Kmom03</h2>
+<p>Hela redovisnigstexten</p>
+<i class="fas fa-arrow-alt-circle-right"></i>
+</a>
+</div>
+
+<div class="kmom-box">
+<a href="report/kmom04">
+<h2>Kmom04</h2>
+<p>Hela redovisnigstexten</p>
+<i class="fas fa-arrow-alt-circle-right"></i>
+</a>
+</div>
+
+<div class="kmom-box">
+<a href="report/kmom05">
+<h2>Kmom05</h2>
+<p>Hela redovisnigstexten</p>
+<i class="fas fa-arrow-alt-circle-right"></i>
+</a>
+</div>
+
+<div class="kmom-box">
+<a href="report/kmom06">
+<h2>Kmom06</h2>
+<p>Hela redovisnigstexten</p>
+<i class="fas fa-arrow-alt-circle-right"></i>
+</a>
+</div>
+
+<div class="kmom-box project">
+<a href="report/kmom10">
+<h2>Projekt</h2>
+<p>Hela redovisnigstexten</p>
+<i class="fas fa-arrow-alt-circle-right"></i>
+</a>
+</div>
