@@ -19,29 +19,32 @@
 }
 
 .kmom-box:hover {
-    background-color: #ff87c4;
+    background-color: #d3c6b3;
     border-radius: 20px;
 }
 
 .kmom-box h2 {
-    color: $my-pink;
+    color: $my-green;
     text-decoration: underline;
 }
 
 .kmom-box a {
     font-size: 1.5em;
+    color: $my-green;
+    text-decoration: none;
 }
 
 .kmom-box a:hover {
-    color: #fff;
-}
-
-.kmom-box p {
-    color: #000;
+    color: $my-beige;
 }
 
 .kmom-box.project {
     grid-column: span 3;
+}
+
+/* REPORT */
+.kmom {
+    color: #e3147d;
 }
 
 

@@ -1,0 +1,100 @@
+.header {
+    background-color: $my-green;
+}
+
+.title,
+.logo {
+    padding: 0;
+}
+
+.title * {
+    text-align: center;
+    margin: 0;
+    color: #e3147d;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.logo {
+    height: 3em;
+}
+
+.logo * {
+    /* display: block; */
+
+    /* height: 100%; */
+}
+
+.logo img {
+    padding: 10px;
+    width: 190px;
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.logo+.title h1 {
+    margin: 0.8rem 0;
+}
+
+.logo+.title.tagline h1 {
+    margin: 0;
+}
+
+.nav {
+    padding: 3em 0;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+    padding: 0;
+    font-weight: bold;
+}
+
+.nav a,
+.nav-toggle {
+    color: $my-yellow;
+    text-decoration: none;
+}
+
+.nav .active a,
+.nav a:hover,
+.nav-toggle:hover {
+    color: $my-beige;
+}
+
+.nav a:hover,
+.nav-toggle:hover {
+    color: $my-beige;
+    /* text-decoration: underline; */
+}
+
+.nav-toggle {
+    display: none;
+}
+
+/* IE8 + IE9 clearfix */
+
+.header>.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.flash-img {
+    margin-top: -50px;
+    height: 100%;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+}

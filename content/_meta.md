@@ -1,6 +1,6 @@
 ---
-Logo: image/computer.png
-Tagline: Student vid BTH
+<!-- Logo: image/computer.png -->
+<!-- Tagline: Student vid BTH -->
 Social:
     - title: Link till sidans github repo
       url: https://github.com/sigridjonsson/portfolioDesign
@@ -11,4 +11,10 @@ Social:
     - title: Dbwebbs YouTube kanal
       url: https://www.youtube.com/channel/UCxX3bcidovf5MDLeXMcbDyg
       icon: fab fa-youtube
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

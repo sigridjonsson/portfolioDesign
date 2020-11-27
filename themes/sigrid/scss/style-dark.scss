@@ -1,0 +1,112 @@
+@import '../../node_modules/normalize.css/normalize';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+@import 'report';
+@import 'kmom';
+@import 'variables-dark';
+@import 'typography';
+@import 'layout';
+@import 'other';
+@import 'header';
+@import 'footer';
+@import 'home';
+
+
+.header {
+    background-color: $header-color;
+}
+
+.title * {
+    color: $text-color;
+}
+
+.nav a,
+.nav-toggle {
+    color: $text-color;
+}
+
+.nav .active a,
+.nav a:hover,
+.nav-toggle:hover {
+    color: $main-color;
+}
+
+.nav a:hover,
+.nav-toggle:hover {
+    color: $main-color;
+}
+
+.flash-img {
+    filter: grayscale(100%);
+}
+
+.me {
+    filter: grayscale(100%);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+a {
+    text-decoration: underline;
+    color: $text-color;
+}
+
+.main {
+    background-color: $main-color;
+}
+
+.footer {
+    background-color: $header-color;
+    color: #000;
+}
+
+.footer a:hover {
+    color: $main-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    color: $text-color;
+}
+
+.footer a {
+    color: $text-color;
+}
+
+// REPORT
+.kmom-box h2,
+.kmom-box a {
+    color: $text-color;
+}
+
+.kmom-box:hover {
+    background-color: $hover-color;
+}
+
+.menu a:hover {
+    color: $text-color;
+}
+
+.kmom-box a:hover {
+    color: #fff;
+}
+
+.answers img {
+    filter: grayscale(40%);
+}

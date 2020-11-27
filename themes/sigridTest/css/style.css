@@ -146,6 +146,7 @@ body {
     display: none;
 }
 
+
 /* IE8 + IE9 clearfix */
 
 .header>.container::after {
@@ -161,12 +162,12 @@ body {
 /*** BASIC LAYOUT: FOOTER ***/
 
 .footer {
-    background: #ff87c4;
-    color: #e3147d;
+    background: #dcd0bf;
+    color: #055d36;
 }
 
 .footer a {
-    color: #e3147d;
+    color: #055d36;
 }
 
 .footer a:hover {

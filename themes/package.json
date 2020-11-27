@@ -7,8 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
     "watch": "sass sigrid/scss/style.scss sigrid/css/style.css --no-source-map --watch",
-    "style": "sass sigrid/scss/style.scss sigrid/css/style.css --no-source-map",
-    "style-min": "sass sigrid/scss/style.scss sigrid/css/style.min.css --no-source-map --style compressed"
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "sass sigrid/scss/style.scss sigrid/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass sigrid/scss/style-dark.scss sigrid/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass sigrid/scss/style-dark.scss sigrid/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass sigrid/scss/style-light.scss sigrid/css/style-light.css --no-source-map",
+    "style-light-min": "sass sigrid/scss/style.scss sigrid/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
