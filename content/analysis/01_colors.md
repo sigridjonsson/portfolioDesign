@@ -166,8 +166,7 @@ uppnå. Den försöker ha en konstnärlig känsla.</p>
 
 <h2>Analys</h2><br>
 
-<p>(Diskutera och analysera de resultaten du fann.)<br>
-Utifrån de resultat jag har fått fram kan jag dra slutsatser om vilken känsla
+<p>Utifrån de resultat jag har fått fram kan jag dra slutsatser om vilken känsla
 hemsidorna vill skapa och hur det är kopplat till vilken publik de försöker nå
 ut till.<br>
 Billboard försöker ge ett ungdomligt intryck med sina färgval. Det är en hemsida

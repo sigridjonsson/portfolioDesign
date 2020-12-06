@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="{{ theme_url }}/../../assets/img/flash1.jpeg">
-    <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+    <title>{% if meta.title %}{{ meta.title }} {% endif %}{{ site_title }}</title>
 
     {% if meta.description %}
         <meta name="description" content="{{ meta.description|striptags }}" />
@@ -21,7 +21,6 @@
     <!-- Insert font choice here -->
     {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
     <!-- End -->
-    <!-- <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" /> -->
     {% if config.session.theme == "dark" %}
         <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
     {% else %}

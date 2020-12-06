@@ -6523,7 +6523,8 @@ readers do not read off random characters that represent icons */
 }
 
 .rubrik {
-  margin-top: -15px;
+  margin-top: -13px;
+  text-align: center;
 }
 
 .menu {
@@ -6539,6 +6540,24 @@ readers do not read off random characters that represent icons */
 
 .menu a:hover {
   color: #005e34;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 767px) {
@@ -7214,33 +7233,34 @@ button::-moz-focus-inner {
   font-size: 2rem;
 }
 
-.flexSpan {
-  margin-left: 200px;
-  display: flex;
-  align-items: center;
-}
-
-.rubrik {
-  text-align: center;
-}
-
 .me {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   width: 300px;
   height: 400px;
-  margin-top: -30px;
   border-radius: 10px;
   border: 2px solid #000;
+  margin-top: 30px;
 }
 
-.homepage p {
-  padding: 2em;
-  width: 600px;
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em 1em;
+  padding: 1em;
+  width: 80%;
+  margin: auto;
 }
 
-.about {
-  margin-left: 200px;
+@media (max-width: 992px) {
+  .gallery {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-
-.about p {
-  width: 1000px;
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
 }

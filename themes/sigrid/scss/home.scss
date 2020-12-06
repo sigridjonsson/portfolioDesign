@@ -1,31 +1,10 @@
-.flexSpan {
-    margin-left: 200px;
-    display: flex;
-    align-items: center;
-}
-
-.rubrik {
-    text-align: center;
-}
-
 .me {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     width: 300px;
     height: 400px;
-    margin-top: -30px;
     border-radius: 10px;
     border: 2px solid #000;
-}
-
-.homepage p {
-    padding: 2em;
-    width: 600px;
-}
-
-
-.about {
-    margin-left: 200px;
-}
-
-.about p {
-    width: 1000px;
+    margin-top: 30px;
 }

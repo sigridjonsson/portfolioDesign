@@ -4,10 +4,9 @@ Description: This is our index page.
 ---
 
 Startsida {.rubrik}
-==========================
+ ==========================
 
-<div class="flexSpan">
-<p>
+Jag heter Sigrid Jönsson och välkommen till mitt portfolio! Jag är 21 år och bor i Uppsala.
 Jag heter Sigrid Jönsson och välkommen till min portfolio! Jag är 21 år och bor i Uppsala.
 När jag gick på gymnasiet läste jag naturlinjen. Min tanke med gymnasievalet var att det
 skulle ge mig större valmöjlighet i framtiden då jag inte visste vad jag ville plugga
@@ -20,7 +19,5 @@ Mina förhoppningar med de här två åren som jag har framför mig är att lär
 möjligt för framtiden. Det är spännande att veta att det finns så olika möjligheter när
 utbildningen är klar. Jag lär mig någonting jag tycker är intressant och sedan kan jag fokusera
 min kunskap på ett område jag brinner för. Mina stora intressen på fritiden är musik och film.
-Så drömmen vore att jobba med hemsidor som inriktar sig på det.</p>
-
-<img src="%assets_url%/img/me.jpg" alt="me" class="me">
-</div>
+Så drömmen vore att jobba med hemsidor som inriktar sig på det.
+![me](%assets_url%/img/me.jpg){.me}
