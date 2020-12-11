@@ -20,21 +20,21 @@ Template: kmom
 <br>
 
 <h2>Urval</h2><br>
------------------------<br>
+
 <p>Vi har valt hemsidorna <a href="https://www.gucci.com/se/en_gb/">Gucci</a>,
 <a href="https://www.vans.se">Vans</a> och <a href="https://www.adidas.se">Adidas</a>.
 När vi gjorde vårat urval var tanken att se hur laddningstiden för hemsidor med
 många olika bilder, artiklar, påverkas.</p>
 <br>
-<img src="../assets/img/gucci.png" width="600" height="350px"><br>
+<img src="../assets/img/gucci.png" alt="Gucci" width="600" height="350px"><br>
 <br>
-<img src="../assets/img/vans.png" width="600" height="350px"><br>
+<img src="../assets/img/vans.png" alt="Vans" width="600" height="350px"><br>
 <br>
-<img src="../assets/img/adidas.png" width="600" height="350px"><br>
+<img src="../assets/img/adidas.png" alt="Adidas" width="600" height="350px"><br>
 <br>
 
 <h2>Metod</h2><br>
------------------------<br>
+
 <p>De verktyg vi har valt att använda är Developer Tools som finns inbyggt i Google
 Chrome samt Google PageSpeed Insights.
 
@@ -49,7 +49,7 @@ skrivs in i ett Google Kalkylark.</p>
 <br>
 
 <h2>Resultat</h2><br>
------------------------<br>
+
 <p><a href="https://docs.google.com/spreadsheets/d/1if694Pc15u_TuJ-9rSA_e7pEUw-5veBez6yrHGaCqTU/edit#gid=0">
 Google Kalkylark med resultat</a><br>
 <br>
@@ -73,7 +73,7 @@ en ruta där man erbjuds rabatter. Således tror vi att bland annat den funktion
 
 
 <h2>Analys</h2><br>
------------------------<br>
+
 <ol>
 <li>Adidas</li>
 <li>Gucci</li>
@@ -115,7 +115,7 @@ sätt medans man behåller de funktioner man vill ha på hemsidan.</p>
 <br>
 
 <h2>Referenser</h2><br>
------------------------<br>
+
 <a href="https://developers.google.com/speed/pagespeed/insights/">Google PageSpeed Insights</a><br>
 <a href="https://www.gucci.com/se/en_gb/">Gucci</a><br>
 <a href="https://www.vans.se">Vans</a><br>
@@ -126,9 +126,10 @@ Website Builder Expert</a><br>
 
 
 <h2>Övrigt</h2><br>
------------------------<br>
-<p>Ett arbete skrivet av Edvin Fajkovic och Sigrid Jönsson som en del av kursen
-Teknisk webbdesign och användbarhet.<br>
+
+<p>Ett arbete skrivet av <a href="http://www.student.bth.se/~edfa18/dbwebb-kurser/design/me/portfolio/design/">
+Edvin Fajkovic </a> och Sigrid Jönsson som en del av kursen
+Teknisk webbdesign och användbarhet.</p>
 <br>
-2020-12-03</p>
+<p>2020-12-03</p>
 </div>

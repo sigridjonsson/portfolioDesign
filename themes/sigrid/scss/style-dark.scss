@@ -37,12 +37,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 .nav .active a,
 .nav a:hover,
 .nav-toggle:hover {
-    color: $main-color;
-}
-
-.nav a:hover,
-.nav-toggle:hover {
-    color: $main-color;
+    color: $nav-selected;
 }
 
 .flash-img {
@@ -75,7 +70,8 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+li {
     color: $text-color;
 }
 

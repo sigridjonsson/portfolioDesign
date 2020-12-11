@@ -6484,6 +6484,7 @@ readers do not read off random characters that represent icons */
 .kmom-box h2 {
   color: #005e34;
   text-decoration: underline;
+  text-align: center;
 }
 
 .kmom-box a {
@@ -6498,6 +6499,13 @@ readers do not read off random characters that represent icons */
 
 .kmom-box.project {
   grid-column: span 3;
+}
+
+.fa-fill-drip,
+.fa-spinner,
+.fa-swatchbook {
+  font-size: 4em;
+  margin-left: 35px;
 }
 
 /* REPORT */
@@ -6558,6 +6566,25 @@ readers do not read off random characters that represent icons */
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.fa-laptop-code {
+  font-size: 4em;
+  margin-left: 65px;
+}
+
+.fa-font,
+.fa-th {
+  font-size: 4em;
+  margin-left: 80px;
+}
+
+.fa-palette,
+.fa-images,
+.fa-magic,
+.fa-tasks {
+  font-size: 4em;
+  margin-left: 70px;
 }
 
 @media (max-width: 767px) {
@@ -7280,12 +7307,7 @@ button::-moz-focus-inner {
 .nav .active a,
 .nav a:hover,
 .nav-toggle:hover {
-  color: #222;
-}
-
-.nav a:hover,
-.nav-toggle:hover {
-  color: #222;
+  color: #fff;
 }
 
 .flash-img {
@@ -7318,7 +7340,8 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+li {
   color: #d1d1d1;
 }
 

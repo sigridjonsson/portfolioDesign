@@ -40,11 +40,11 @@ inom marknadsföring för att kunna ta upp olika begrepp i analysen.</p>
 <h2>Resultat</h2><br>
 
 <h3>BILLBOARD</h3>
-<img src="../assets/img/billboard1.png" width="600" height="350px"><br>
+<img src="../assets/img/billboard1.png" alt="Billboard" width="600" height="350px"><br>
 <p><strong>Bild 1.1</strong></p>
 <br>
 <br>
-<img src="../assets/img/billboard2.png" width="600" height="350px"><br>
+<img src="../assets/img/billboard2.png" alt="Billboard" width="600" height="350px"><br>
 <p><strong>Bild 1.2</strong></p>
 <br>
 <br>

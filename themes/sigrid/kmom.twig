@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="sv">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -32,7 +32,7 @@
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <div class="header" role="banner">
         <div class="container">
-            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="0">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
             </a>
@@ -44,10 +44,10 @@
                 </div>
             {% endif %}
             <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
-                <a href="{{ "index"|link }}">
+                <!-- <a href="{{ "index"|link }}">
                     <h1>{{ site_title }}</h1>
                     {{ pages["_meta"].meta.tagline|markdown }}
-                </a>
+                </a> -->
             </div>
             <div class="nav">
                 <div id="nav" role="navigation" tabindex="-1">
@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="flash-region">
-              <a href="{{ "index"|link }}"><img class="flash-img" src="{{ base_url }}/image/flash1.jpeg"></a>
+              <a href="{{ "index"|link }}"><img class="flash-img" src="{{ base_url }}/image/flash1.jpeg" alt="Flash image"></a>
             </div>
         </div>
     </div>

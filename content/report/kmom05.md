@@ -5,12 +5,12 @@ Template: kmom
 ---
 
 <div class="menu">
-<a href="kmom01">kmom01</a><br>
-<a href="kmom02">kmom02</a><br>
-<a href="kmom03">kmom03</a><br>
-<a href="kmom04">kmom04</a><br>
-<a href="kmom05">kmom05</a><br>
-<a href="kmom06">kmom06</a><br>
+<a href="kmom01">Kmom01</a><br>
+<a href="kmom02">Kmom02</a><br>
+<a href="kmom03">Kmom03</a><br>
+<a href="kmom04">Kmom04</a><br>
+<a href="kmom05">Kmom05</a><br>
+<a href="kmom06">Kmom06</a><br>
 <a href="kmom10">Projekt</a><br>
 </div>
 
@@ -54,7 +54,7 @@ Detta är väldigt bra då man inte vill förstöra en kunds bilder även om man
 ändra lite på dem.</p>
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/cftqzGltmzc" frameborder="0" allowfullscreen></iframe>
+    <iframe title="Fool for you" src="https://www.youtube.com/embed/cftqzGltmzc" frameborder="0" allowfullscreen></iframe>
 </div>
 <p>En av mina favoritlåtar:)</p>
 

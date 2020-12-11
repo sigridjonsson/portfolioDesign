@@ -26,6 +26,7 @@
 .kmom-box h2 {
     color: $my-green;
     text-decoration: underline;
+    text-align: center;
 }
 
 .kmom-box a {
@@ -40,6 +41,13 @@
 
 .kmom-box.project {
     grid-column: span 3;
+}
+
+.fa-fill-drip,
+.fa-spinner,
+.fa-swatchbook {
+    font-size: 4em;
+    margin-left: 35px;
 }
 
 /* REPORT */
