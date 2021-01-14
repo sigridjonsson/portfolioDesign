@@ -33,3 +33,21 @@ Rapporter {.rubrik}
 <i class="fas fa-arrow-alt-circle-right"></i>
 </a>
 </div>
+
+<div class="kmom-box">
+<a href="analysis/10_webbplatsdesign">
+<h2>Projekt - Trender</h2>
+<i class="fas fa-fire-alt"></i>
+<p>Hela rapporten</p>
+<i class="fas fa-arrow-alt-circle-right"></i>
+</a>
+</div>
+
+<div class="kmom-box">
+<a href="analysis/11_design-och-webbplatser">
+<h2>Projekt - DP</h2>
+<i class="fas fa-swatchbook"></i>
+<p>Hela rapporten</p>
+<i class="fas fa-arrow-alt-circle-right"></i>
+</a>
+</div>

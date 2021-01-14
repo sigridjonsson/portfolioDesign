@@ -8,6 +8,8 @@ Template: kmom
 <a href="01_colors">Färg</a><br>
 <a href="02_load">Laddningstid</a><br>
 <a href="03_design_principles">Design</a><br>
+<a href="10_webbplatsdesign">Projekt - Trender</a><br>
+<a href="11_design-och-webbplatser">Projekt - DP</a><br>
 </div>
 
 
